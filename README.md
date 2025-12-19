@@ -56,7 +56,7 @@ Constraints:
 - Assume these five books must be sufficient for me to speak intelligently,
   critically, and with nuance about 【】
 
-  # Personal Shopper （Agent mode)
+# Personal Shopper （Agent mode)
 
 
 Role
