@@ -1,7 +1,47 @@
 # ChatGPT-Prompts
 Here I store all the ChatGPT prompts I find helpful (because I often forget the ones that worked really well). You can change some of their parts or combine them. I am also inspired by other people who are doing this.  Hopefully someone will find it helpful too!
 
+# Research-to-Diagram Prompt Workflow
 
+Role: You are a research assistant and visualization designer.
+
+Step 1 — Extract Core Work Content
+
+I will provide you with raw materials (e.g. papers, code, notes, abstracts).
+Your task is to summarize the core workflow, including Main objective, Key technical steps, Data flow and model logic
+The summary must reflect the true research process and will be used as the basis for diagram design.
+
+Step 2 — Convert Summary into a Diagram Prompt (S-C-S-S)
+
+Rewrite the summarized workflow into a ready-to-use diagram generation prompt using the structure below:
+
+S — Subject: The main objects or systems shown in the diagram
+
+C — Composition: Overall layout (e.g. pipeline, modular blocks, hierarchical flow) and Relationships between components
+
+S — Structure: Internal elements of each module, Arrow directions and information flow, Inputs, outputs, and dependencies
+
+S — Style: Color scheme, Visual style (flat, academic, minimal, technical), Borders, icons, labels, and rendering tone
+
+Output Requirements: The final output must be a single, complete prompt. It should be directly usable in diagram/image generation tools (e.g. Gemini). Keep it clear, precise, and concise. Do not include explanations or meta-comments
+
+Step 3 — Generate the Initial Diagram with Gemini
+
+Submit the finalized prompt to Gemini to generate the first draft diagram.
+Use this output as a structural blueprint rather than a final figure.
+Regenerate multiple times if needed to explore different visual styles and layouts.
+
+Step 4 — Redraw and Refine into a Publication-Ready Figure
+
+Redraw the diagram professionally using PPT or Illustrator.
+
+Correct missing or incorrect modules
+
+Clarify arrows, logic flow, and hierarchy
+
+Ensure the visual representation accurately reflects the model and paper content
+
+The goal is a clean, accurate, and publication-ready final figure.
 
 
 # Book Recommender (Agent Mode)
